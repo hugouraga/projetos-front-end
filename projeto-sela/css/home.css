@@ -1,0 +1,181 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+
+}
+html, body{
+	overflow-x: hidden;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*Codificação de estilo da página - cabeçalho*/
+.home_cabecalho{
+  width: 100%;
+  height: 150px;
+  padding-top: 35px;
+  margin-bottom: -35px;
+}
+.home_cabecalho h1,p{
+  text-align: center
+}
+.home_cabecalho h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #333;
+}
+.home_cabecalho p {
+  font-family: 'Poiret One', cursive;
+  color:  black;
+  padding-top: 10px;
+}
+
+/*Codificação de estilo da página - Links*/
+.home_links{
+  width: 100%;
+  max-height: 50px;
+  background: #f25f70;
+}
+.home_links ul{
+  width: 40%;
+  height: 50px;
+  margin: 0px auto;
+}
+.home_links ul li{
+  display: inline;
+}
+.home_links ul li a{
+  text-decoration: none;
+  color:  white;
+  display: inline-block;
+  text-align: center;
+  margin-left: 10%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-family: 'Pathway Gothic One',sans-serif;
+  font-size: 18px;
+}
+
+/*Codificação de estilo da página - imagem principal*/
+.home_img_principal{
+  background-image: url("../imagens/img-principal-1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 150px;
+}
+#home_infor_img_principal{
+  width: 40%;
+  height: 190px;
+  margin: auto;
+  padding-top: 50px;
+  background-color: rgba(255,255,255, 0.9);
+}
+#home_infor_img_principal header h2,p{
+  text-align: center;
+  
+}
+#home_infor_img_principal header h2{
+  font-family: 'Oswald', sans-serif;
+  color:  #333;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+#home_infor_img_principal header p{
+  font-family: 'Titillium Web', sans-serif;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 17px;
+  color:  #333;
+}
+
+/*Codificação de estilo da página - container com 3 grids*/
+
+.home_container_grid{
+  width: 100%;
+  height: 500px;
+  margin: auto;
+  border-bottom: 0.1px solid  #f2f2f2;
+
+}
+.home_grid{
+  display: inline-block;
+  width: 30%;
+  margin: auto;
+  margin-left: 25px;
+}
+.home_grid p{
+  text-align: justify;
+  margin-top: 20px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  color:  #333;
+  width: 90%; 
+}
+.home_grid h3{
+  text-align: center;
+  margin-top: 70px;
+  font-family: 'Oswald', sans-serif;
+  color:  #333;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+#grid1{
+  background-image: url("../imagens/grid1.jpg");
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+#grid2{
+   background-image: url("../imagens/grid2.jpg");
+   background-repeat: no-repeat;
+   margin-top: 20px;
+}
+#grid3{
+   background-image: url("../imagens/grid3.jpg");
+   background-repeat: no-repeat;
+   margin-top: 20px;
+}
